@@ -1,0 +1,14 @@
+[versions]
+kotlin = "1.9.22"
+gatling = "3.13.3"
+avro = "1.12.0"
+radarSchemas = "0.8.11"
+
+[libraries]
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref = "kotlin" }
+avro = { group = "org.apache.avro", name = "avro-tools", version.ref = "avro" }
+radarSchemas = { group = "org.radarbase", name = "radar-schemas-commons", version.ref = "radarSchemas" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+gatling = { id = "io.gatling.gradle", version.ref = "gatling" }
