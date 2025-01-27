@@ -14,6 +14,8 @@ dependencies {
     testImplementation(libs.kotlin.test)
     gatlingImplementation(libs.avro)
     gatlingImplementation(libs.radarSchemas)
+//    gatlingImplementation(libs.radarCommonsAndroid)
+    gatlingImplementation(libs.radarCommons)
 }
 
 tasks.test {
